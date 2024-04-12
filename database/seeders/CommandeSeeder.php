@@ -16,13 +16,13 @@ class CommandeSeeder extends Seeder
         DB::table('commandes')->insert([
             [
                 'date' => '2022-04-12',
-                'statut' => 'en traitement',
+                'etat' => 'en traitement',
                 'panier_id' => 1,
                 'client_id'=>1
             ],
             [
                 'date' => '2024-04-13',
-                'statut' => 'expédié',
+                'etat' => 'expédié',
                 'panier_id' => 2,
                 'client_id' =>2
             ],
